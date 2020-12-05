@@ -44,8 +44,8 @@ const Layout = ({ children, location }) => {
           <Helmet
             title={JSONData.Title}
             meta={[
-              { name: 'description', content: 'Sample' },
-              { name: 'keywords', content: 'sample, something' },
+              { name: 'description', content: 'Profile' },
+              { name: 'keywords', content: 'Profile, something' },
             ]}
           >
             <html lang="en" />
