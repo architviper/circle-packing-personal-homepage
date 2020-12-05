@@ -60,15 +60,15 @@ class Main extends React.Component {
 
             {JSONData.WorkContent}
             <br/><br/>
-            {JSONData.InternshipsStartLine}
-            <ul>
-              {JSONData.InternShips.map((item) => {
-              return (<li><a href={item.link}>{item.name}</a><br/></li>)
-            })}
-            </ul>
             {JSONData.ProjectsStartLine}
             <ul>
               {JSONData.Projects.map((item) => {
+              return (<li><a href={item.link}>{item.name}</a><br/></li>)
+            })}
+            </ul>
+            {JSONData.InternshipsStartLine}
+            <ul>
+              {JSONData.InternShips.map((item) => {
               return (<li><a href={item.link}>{item.name}</a><br/></li>)
             })}
             </ul>
